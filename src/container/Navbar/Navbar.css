@@ -1,0 +1,158 @@
+.app__navbar{
+
+    width:100%;
+    align-items: center;
+    display:flex;
+    border: 1px solid black;
+    padding: 1rem;
+    justify-content: space-between;
+    height: 6rem;
+}
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.app__navbar-logo img{
+    width: 150px;
+}
+.app__navbar__items{
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__navbar__items-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app__navbar__items-links li{
+    margin: 0 1rem;
+    
+}
+
+.app__navbar__items-links li:hover{
+    position: relative;
+    transition: 0.5s ease-in-out;
+    color: var(--color-golden);
+}
+
+.app__navbar__items-links li:hover:after{
+    display: flex;
+    content: url(../../assets/fire.svg);
+    
+    display: block;
+    position: absolute;
+    height: 5px;
+    top: 25px;
+    left: 10px;
+}
+
+
+.app__navbar__toggle{
+    display: flex;
+    flex-direction: row;
+    
+    width: 65px;
+    justify-content: space-between;
+}
+
+.app__navbar__toggle-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__navbar__toggle-icon img{
+    display: flex;
+    width: 15px;
+    
+}
+
+
+.app__navbar__toggle-icon p{
+    font-size: 10px;
+}
+
+.app__navbar-smallscreen{
+    display: none;
+}
+
+.app__navbar-smallscreen__overlay{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    transition: 2s ease;
+}
+.app__navbar-smallscreen__items-links{
+    text-align: center;
+
+}
+.app__navbar-smallscreen__items-links li{
+    margin: 2rem;
+
+}
+.app__navbar-smallscreen__overlay .overlay__close{
+    color: var(--color-golden);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.app__navbar-smallscreen__items-links li{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 27px;
+}
+
+@media screen and (min-width: 1800px){
+    .app__navbar{
+        padding-top: 3rem;
+        height: 7rem;
+    }
+    .app__navbar-logo img{
+        width: 250px;
+    }
+    
+    .app__navbar__toggle-icon img{
+        width: 23px;
+    }
+    .app__navbar__toggle-icon p{
+        font-size: 12px;
+    }
+    .app__navbar__toggle-icon{
+
+        padding: 0.5rem;
+    }
+    .app__navbar__toggle{
+        margin: 2rem;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+    .app__navbar__items{
+        display: none;
+    }
+    .app__navbar__toggle{
+        flex:1;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    .app__navbar__toggle-icon{
+        margin: 0 5px;
+    }
+}

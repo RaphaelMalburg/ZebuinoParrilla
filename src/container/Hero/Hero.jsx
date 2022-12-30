@@ -5,6 +5,7 @@ const Hero = () => (
 
     <div>
 
+        Hero
     </div>
 )
 
