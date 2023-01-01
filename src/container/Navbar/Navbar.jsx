@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {MdOutlineRestaurantMenu} from 'react-icons/md';
-import ToggleVidAud from '../../components/ToggleVidAud/ToggleVidAud'
+
 
 import images from '../../constants/images'
 
@@ -27,20 +27,20 @@ const Navbar = () => {
             </ul>
 
         </div>
-
+{/*
         <div className='app__navbar__toggle'>
             <div className='app__navbar__toggle-icon'>
-                <img src={images.toggleGolden} alt="toggle video" onClick={() => setToggleVid(false)}/>
+                <img src={images.toggleGolden} alt="toggle video" onClick={() => {}}/>
                 <p className='p__opensans'>Video</p>
             </div>
            
             <div className='app__navbar__toggle-icon '>
-                <img src={images.toggleGrey} alt="Toggle audio" onClick={() => setToggleAud(false)} />
+                <img src={images.toggleGrey} alt="Toggle audio" onClick={() => {}} />
                 <p className='p__opensans'>Audio</p>
             </div>
         </div>
 
-
+    */}
         <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu color='fff' fontSize={27} onClick={() => setToggleMenu(true)}/>
 

@@ -24,10 +24,11 @@ import ribs from '../assets/ribs-2.jpg';
 import toggleGolden from '../assets/toggle-golden.svg';
 import toggleGrey from '../assets/toggle-grey.svg';
 import ZeFireGrill from '../assets/zebuino-fire.png';
-
+import fireVideo from '../assets/fire-vd.mp4';
+import fireAudio from '../assets/fire-audio.mp3';
 export default{
     bg,brandLogoNoBg,brandLogoTitle,burger,burger2,chef,fireDoor,fireIcon,
     chickenFork,chickenPlate,knifeIcon,knifeImg,logo,logoFire,logoWhiteNoBg,plateUp,
     plateUp2,plateUp3,plateUp4,plateUp5,plateUp6,plateUp7,ribs,toggleGolden,
-    toggleGrey,ZeFireGrill
+    toggleGrey,ZeFireGrill,fireAudio,fireVideo
 };
