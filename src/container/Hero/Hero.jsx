@@ -61,7 +61,7 @@ const Hero = () => {
         </div>
         <div className='app__hero-main flex__center'>
             <button className='custom__button' ><a href="#menu">Explore o Menu</a></button>
-            <img src={images.logoWhiteNoBg}  alt="logo" />
+            <img src={images.logoWhiteNoBg} className="flex__center"  alt="logo" />
             <video 
             src={images.fireVideo} 
             ref={vidRef} 

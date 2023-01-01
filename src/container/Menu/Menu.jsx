@@ -1,10 +1,11 @@
 import React from 'react'
 import './Menu.css';
+import { LogoText } from '../../components';
 
 const Menu = () => (
 
     <div>
-        menu
+        <LogoText/>
     </div>
 )
 

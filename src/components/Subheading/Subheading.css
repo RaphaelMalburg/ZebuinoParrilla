@@ -1,0 +1,14 @@
+.app__knifetext{
+    height: 5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    
+}
+.app__knifetext p{
+
+    margin-bottom: -.8rem;
+}
+.knife__img{
+
+    padding-bottom: 1rem;
+}

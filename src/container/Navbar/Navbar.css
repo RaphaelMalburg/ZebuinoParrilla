@@ -80,7 +80,9 @@
 .app__navbar-smallscreen{
     display: none;
 }
-
+.app__navbar-smallscreen svg{
+    left: 800px;
+}
 .app__navbar-smallscreen__overlay{
     position: fixed;
     width: 100%;
