@@ -1,5 +1,6 @@
 .app__navbar{
 
+    
     width:100%;
     align-items: center;
     display:flex;
@@ -27,7 +28,7 @@
 }
 
 .app__navbar__items-links{
-    padding-right: 15rem;
+    
     flex: 1;
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@
 
 .app__navbar__items-links li{
     margin: 0 2rem;
-    font-size: large;
+    
     
 }
 
@@ -134,7 +135,8 @@
     }
     */
 }
-@media screen and (max-width: 767px){
+
+@media screen and (max-width: 1023px){
     .app__navbar-smallscreen{
         display: flex;
     }
@@ -143,6 +145,9 @@
     }
     .app__navbar-logo img{
         width: 150px;
+    }
+    .app__navbar__items-links li{
+    font-size: large;
     }
     /*
     .app__navbar__toggle{
