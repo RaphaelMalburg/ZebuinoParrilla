@@ -13,8 +13,11 @@ const AboutUs = () => (
             </p>
             <button className='custom__button'><a href="#">Saiba mais</a></button>
         </div>
+        <div className='app__aboutus__knife flex__center'>
 
-        <img src={images.knifeImg} alt=" knife image" />
+             <img src={images.knifeImg} alt=" knife image" />
+        </div>
+       
 
         <div className='app__aboutus__item  flex__center app__bg'>
             <SubHeading title="Z"/>

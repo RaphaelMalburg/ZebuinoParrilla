@@ -1,6 +1,7 @@
 .app__aboutus{
     height: 70vh;
     flex-direction: row;
+    
 }
 
 
@@ -33,6 +34,10 @@
     text-align: start;
 }
 
+.app__aboutus__knife{
+    margin:2rem 0;
+}
+
 
 @media screen and (min-width: 1800px){
     .app__aboutus__item img{
@@ -48,16 +53,16 @@
 
     .app__aboutus{
         flex-direction: column;
-        
+        display: inline-table;
     }
     .app__aboutus__item, .app__aboutus__item:last-child{
         display: flex;
         justify-content: center;
          align-items: center;
+         
     }
 
    .app__aboutus>img{
-
-    padding: 2rem 0;
+    
    }
 }

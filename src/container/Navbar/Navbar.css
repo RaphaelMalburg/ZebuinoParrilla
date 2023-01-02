@@ -91,6 +91,7 @@
     height: 100vh;
     background: rgba(0, 0, 0, 0.9);
     transition: 2s ease;
+    z-index: 2;
 }
 .app__navbar-smallscreen__items-links{
     text-align: center;
@@ -103,10 +104,13 @@
 .app__navbar-smallscreen__overlay .overlay__close{
     color: var(--color-golden);
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 15px;
+    left: 92%;
+    z-index: 5;
+    
 
 }
+
 .app__navbar-smallscreen__items-links li{
     color: var(--color-golden);
     font-family: var(--font-base);
