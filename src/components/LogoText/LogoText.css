@@ -11,3 +11,11 @@
     margin-right: 1rem;
     
 }
+@media screen and (max-width: 330px){
+    .LogoText__align p{
+        font-size: 17px;
+    }
+    .LogoText__align img{
+        height: 20px;
+    }
+}

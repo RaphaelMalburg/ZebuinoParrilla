@@ -22,16 +22,17 @@ const Menu = () => (
                 {dataMenu.apettizers.map((apettizers,index) => (
                     <MenuItem key={apettizers.title + index} title={apettizers.title} price={apettizers.price} tags={apettizers.tag}/>
                 ))}
+                <h1 className='p__cormorant'>SALSA (Molho)</h1>
+                {dataMenu.sauces.map((sauces,index) => (
+                    <MenuItem key={sauces.title + index} title={sauces.title} price={sauces.price} tags={sauces.tag}/>
+                ))}
             </div>
             <div className='app__menu__columns'>
                 <h1 className='p__cormorant'>ENTRADAS PARA COMPARTILHAR</h1>
                 {dataMenu.toShare.map((toShare,index) => (
                     <MenuItem key={toShare.title + index} title={toShare.title} price={toShare.price} tags={toShare.tag}/>
                 ))}
-                 <h1 className='p__cormorant'>SALSA (Molho)</h1>
-                {dataMenu.sauces.map((sauces,index) => (
-                    <MenuItem key={sauces.title + index} title={sauces.title} price={sauces.price} tags={sauces.tag}/>
-                ))}
+              
                 <h1 className='p__cormorant'>POSTRES (Sobremesas)</h1>
                 {dataMenu.desserts.map((desserts,index) => (
                     <MenuItem key={desserts.title + index} title={desserts.title} price={desserts.price} tags={desserts.tag}/>
@@ -51,7 +52,10 @@ const Menu = () => (
             </div>
             
         </div>
-        <button className='custom__button'><a href="#">Faça seu pedido</a></button>
+        <div className=' flex__center'>
+            <button className='custom__button flex__center'><a href="#">Faça seu pedido</a></button>
+        </div>
+        
     </div>
 )
 

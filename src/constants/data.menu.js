@@ -164,12 +164,7 @@ const apettizers = [
         tag: '(Acompanha farofinha de biju e chimichurri)'
 
     },
-    {
-        title: 'Cheese Burguer',
-        price: 'R$17,90',
-        tag: '(Carne 150g grelhada na parrilla, queijo, pão crocante grelhado com aioli)'
-
-    }
+   
 
 ]
 

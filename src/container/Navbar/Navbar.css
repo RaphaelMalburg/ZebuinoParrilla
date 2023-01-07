@@ -99,7 +99,7 @@
 }
 .app__navbar-smallscreen__items-links li{
     margin: 2rem;
-
+    
 }
 .app__navbar-smallscreen__overlay .overlay__close{
     color: var(--color-golden);

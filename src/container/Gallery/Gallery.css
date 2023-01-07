@@ -1,0 +1,25 @@
+.app__gallery{
+
+    width: 100%;
+    height: 100vh;
+}
+
+.app__gallery__content{
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__gallery__content-images{
+    width: 300px;
+    height: auto;
+    display: flex;
+   
+   
+    
+}
+
+.app__gallery__content-images img{
+    width: 100%;
+    margin:  0 0.5rem;
+}

@@ -1,0 +1,128 @@
+.app__chef{
+   width: 100%;
+    height: 80vh;
+   padding-bottom: 15rem;
+    gap: 4rem;
+    flex-direction: row;
+}
+.app__chef-img{
+    max-width: 700px;
+    min-width: 300px;
+    flex: 1;
+
+    
+}
+
+.app__chef-img img{
+    
+width: 100%;
+}
+.app__chef__sidetext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    padding-bottom: 2rem ;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+.app__chef__container-signature{
+
+    padding-top: 1rem;
+    min-width: 280px;
+    max-width: 400px;
+    height: auto;
+
+}
+
+
+.app__chef-signature{
+    width: 100%;
+}
+
+
+
+.app__chef__tags {
+    padding-top: 1.5rem;
+   
+    padding-bottom: 1rem;
+}
+
+.app__chef__sidetext__quote {
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.app__chef__sidetext__quote img{
+    float: left;
+    width: 47px;
+    height: auto;
+    padding-right: 1rem;
+    
+
+
+}
+
+.app__chef__sidetext__quote + p{ 
+    padding-bottom: 2rem;
+    
+}
+
+
+
+@media screen and (min-width: 2000px) {
+
+    .app__chef__sidetext h1{
+        height: 100px;
+        margin-bottom: 2rem;
+    }
+
+    .app__chef__sidetext__quote{
+     margin-top: 4rem;
+
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+    .app__chef__sidetext{
+        width: 280px;
+    }
+  
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .app__chef{
+        
+        height: 110vh;
+
+    }
+
+}
+
+@media  screen and  (max-width: 1000px)  {
+    
+
+
+} 
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .app__chef{
+        flex-direction: column;
+        height: 140vh;
+
+    }
+    .app__chef-signature {
+        max-width: 350px;
+    }
+}

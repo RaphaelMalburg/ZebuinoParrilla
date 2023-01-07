@@ -29,4 +29,5 @@ li{
 }
 body{
   background: #0C0C0C;
+  min-width: 320px;
 }

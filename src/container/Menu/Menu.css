@@ -1,7 +1,28 @@
 .app__menu-menulists{
     gap: 4rem;
     align-items: flex-start;
+    display:flex ;
+   
 }
 h1{
     margin: 3rem 0 1.5rem 0 ;
+}
+.app__menu{
+width: 100%;
+
+}
+.app__menu__columns{
+    flex: 1;
+}
+
+.app__menu-menulists>div{
+padding-bottom: 2rem;
+
+}
+
+
+@media screen and (max-width: 1083px){
+    .app__menu-menulists{
+        flex-wrap: wrap;
+    }
 }

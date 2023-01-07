@@ -16,15 +16,19 @@
     flex-direction: column;
     flex: 1;
     align-items:flex-end ;
-
+   
 }
 .app__aboutus__item:last-child{
     align-items:flex-start ;
+    
+    
 }
 .app__aboutus .p__opensans{
     padding-bottom: 2rem;
 
 }
+
+
 
 .app__aboutus div:first-child{
     text-align: end;

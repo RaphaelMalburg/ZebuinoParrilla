@@ -3,7 +3,7 @@ import './SubHeading.css';
 import { images } from '../../constants';
 const SubHeading = ({title}) => (
 
-    <div className='flex__center app__knifetext'>
+    <div className='app__knifetext flex__center '>
         <p className='headtext__cormorant'>{title}</p>
         <img src={images.knifeIcon} alt="knife-icon" className='knife__img'/>
     </div>
