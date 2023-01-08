@@ -42,6 +42,8 @@ const Gallery = () => {
         SetWidth( carousel.current.scrollWidth - carousel.current.offsetWidth )
     },[]);
 
+
+    
     return(
     
     <div className='app__gallery section__padding app__bg flex__center'>
@@ -50,13 +52,19 @@ const Gallery = () => {
         <motion.div className='app__gallery__container'> {/*app*/}
 
             <motion.div className='app__gallery__container-images' ref={carousel} whileTap={{cursor:'grabbing'}}>{/*carousel*/}
-                <motion.div 
+                <motion.div  
                 className='app__gallery__container-inner'
+                ref={scrollRef}
+                
                 drag='x'
                 dragConstraints={{ right: 0 , left: - width}}
                 initial={{ x:100}}
-                animate={{x:0}}
-                transition={{duration:0.8}}
+                animate={{x: -width}}
+                transition={{
+                    delay:0.5,
+                    duration:25}}
+                
+
                 >{/*inner*/}
 
                     {imagesCarousel.map(image =>(
@@ -67,13 +75,10 @@ const Gallery = () => {
                     ))}
                     
                 </motion.div>
-
+                    
             </motion.div>
         </motion.div>
-        <div className='app__gallery-arrows'>
-            <MdArrowBackIos className='gallery__arrow-icon' onClick={() => scroll('left')} />
-            <MdArrowForwardIos className='gallery__arrow-icon' onClick={() => scroll('right')}/>
-        </div>
+       
     </div>
 )};
 

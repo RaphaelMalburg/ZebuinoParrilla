@@ -41,16 +41,43 @@
 }
 
 .app__gallery__container-images{
-  
+ 
     cursor: grab;
     overflow: hidden;
 
 
 }
+.app__gallery-arrows {
+    
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.gallery__arrow-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+    background: var(--color-black);
+    border-radius: 5px;
+}
 
+
+@media screen and (min-width: 2000px) {
+ .app__gallery__container{
+
+    padding-top: 5rem;
+ }
+ .app__gallery__container-items{
+    min-height: 400px;
+    min-width: 800px;
+    padding: 14px ;
+}
+
+}
 @media screen and (max-width: 982px) and (min-width: 450px) {
     .app__gallery{
-        padding-top: 17rem;
+        margin-top: 27rem;
 
     }
 }
@@ -63,5 +90,8 @@
        
     }
    
-   
+    .app__gallery{
+        margin-top: 17rem;
+
+    }
 } 
