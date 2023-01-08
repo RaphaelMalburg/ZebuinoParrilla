@@ -3,7 +3,7 @@
     height: 100vh;
    display: flex;
    justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
   
@@ -112,12 +112,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 374px) {
-    .app__chef__sidetext{
-       
-    
-    
-    }
-    
+  
    
 }
 
