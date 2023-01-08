@@ -59,7 +59,7 @@ const Gallery = () => {
                 drag='x'
                 dragConstraints={{ right: 0 , left: - width}}
                 initial={{ x:100}}
-                animate={{x: -width}}
+                animate={{x:0}}
                 transition={{
                     delay:0.5,
                     duration:25}}
