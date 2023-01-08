@@ -13,17 +13,19 @@ const Navbar = () => {
     return(
     
     <nav className='app__navbar '>
+        
         <div className='app__navbar-logo '>
-            <a href="#"><img src={images.brandLogoNoBg} alt="Logo-image" /></a>
+            <a href="#home"><img src={images.brandLogoNoBg} alt="Logo-image" /></a>
         </div>
 
         <div className='app__navbar__items'>
             <ul className='app__navbar__items-links'>
-                <li className='p__opensans'><a href="#">Home</a></li>
-                <li className='p__opensans'><a href="#sobre">Sobre</a></li>
+                <li className='p__opensans'><a href="#home">Home</a></li>
+                <li className='p__opensans'><a href="#aboutus">Sobre</a></li>
                 <li className='p__opensans'><a href="#menu">Menu</a></li>
-                <li className='p__opensans'><a href="#galeria">Galeria</a></li>
-                <li className='p__opensans'><a href="#contato">Contato</a></li>
+                <li className='p__opensans'><a href="#chef">Chef</a></li>
+                <li className='p__opensans'><a href="#gallery">Galeria</a></li>
+                <li className='p__opensans'><a href="#footer">Contato</a></li>
             </ul>
 
         </div>
@@ -48,11 +50,12 @@ const Navbar = () => {
             <div className='app__navbar-smallscreen__overlay flex__center'>
                  <MdOutlineRestaurantMenu  className='overlay__close'  onClick={()=>setToggleMenu(false)} />
                 <ul className='app__navbar-smallscreen__items-links'  onClick={()=>setToggleMenu(false)}  >
-                    <li className='p__opensans'><a href="#">Home</a></li>
-                    <li className='p__opensans'><a href="#sobre">Sobre</a></li>
-                    <li className='p__opensans'><a href="#menu">Menu</a></li>
-                    <li className='p__opensans'><a href="#galeria">Galeria</a></li>
-                    <li className='p__opensans'><a href="#contato">Contato</a></li>
+                <li className='p__opensans'><a href="#home">Home</a></li>
+                <li className='p__opensans'><a href="#aboutus">Sobre</a></li>
+                <li className='p__opensans'><a href="#menu">Menu</a></li>
+                <li className='p__opensans'><a href="#chef">Chef</a></li>
+                <li className='p__opensans'><a href="#gallery">Galeria</a></li>
+                <li className='p__opensans'><a href="#footer">Contato</a></li>
                 </ul>
 
             </div>

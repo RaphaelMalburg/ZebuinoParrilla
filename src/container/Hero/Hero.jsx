@@ -33,7 +33,7 @@ const Hero = () => {
 
     return(
 
-    <div className='app__hero section__padding flex__center'>
+    <div className='app__hero section__padding flex__center' id='home'>
         <div className='app__navbar__toggle'>
             <div className='app__navbar__toggle-icon'>
                 <div onClick={handleVideo}>

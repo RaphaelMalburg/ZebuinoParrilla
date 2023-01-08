@@ -5,7 +5,7 @@ import SubHeading from "../../components/SubHeading/SubHeading"
 
 const Chef = () => (
     
-    <div className='app__chef flex__center section__padding app__bg' >
+    <div className='app__chef flex__center section__padding app__bg'  id='chef'>
         
         <div className='app__chef-img'>
             <img src={images.chef} alt="chef_image" />

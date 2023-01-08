@@ -4,7 +4,7 @@ import './Gallery.css';
 import { motion} from 'framer-motion'
 import images from "./../../constants/images"
 import SubHeading from "../../components/SubHeading/SubHeading"
-import {MdArrowForwardIos,MdArrowBackIos } from "react-icons/md"
+
 
 const Gallery = () => {
     const scrollRef = React.useRef(null);
@@ -46,7 +46,7 @@ const Gallery = () => {
     
     return(
     
-    <div className='app__gallery section__padding app__bg flex__center'>
+    <div className='app__gallery section__padding app__bg flex__center' id='gallery'>
         <SubHeading title="Galeria"/>
 
         <motion.div className='app__gallery__container'> {/*app*/}

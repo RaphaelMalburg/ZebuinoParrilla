@@ -1,10 +1,10 @@
 .app__navbar{
 
-    
+    position: fixed;
     width:100%;
     align-items: center;
     display:flex;
-   
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(27,25,18,1) 35%, rgba(28,26,18,0.36207986612613796) 100%);
     padding: 1rem;
     justify-content: space-between;
     height: 6rem;
@@ -37,7 +37,7 @@
 }
 
 .app__navbar__items-links li{
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     
     
 }

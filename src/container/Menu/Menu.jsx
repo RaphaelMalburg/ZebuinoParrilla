@@ -6,7 +6,7 @@ import { dataMenu } from '../../constants';
 
 const Menu = () => (
 
-    <div className='app__menu  section__padding'>
+    <div className='app__menu  section__padding'  id='menu'>
        <div className='app__menu-title'>
             <LogoText/>
             <SubHeading title="Menu"/>
@@ -53,7 +53,7 @@ const Menu = () => (
             
         </div>
         <div className=' flex__center'>
-            <button className='custom__button flex__center'><a href="#">Faça seu pedido</a></button>
+            <button className='custom__button flex__center'><a href="https://api.whatsapp.com/message/MCAB63GBMTWEJ1?autoload=1&app_absent=0">Faça seu pedido</a></button>
         </div>
         
     </div>
