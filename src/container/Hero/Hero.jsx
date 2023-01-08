@@ -64,7 +64,7 @@ const Hero = () => {
             <img src={images.logoWhiteNoBg} className="flex__center"  alt="logo" />
             <video           
             ref={vidRef}            
-             muted autoPlay loop>
+             muted autoPlay loop disablePictureInPicture >
                 <source src={images.fireVideo} type="video/mp4"  />
              </video>
 
