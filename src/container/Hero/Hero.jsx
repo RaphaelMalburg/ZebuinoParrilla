@@ -60,13 +60,13 @@ const Hero = () => {
             </div>
         </div>
         <div className='app__hero-main flex__center'>
-            <button className='custom__button' ><a href="#menu">Explore o Menu</a></button>
+            <button className='custom__button' ><a href="">Explore o Menu</a></button>
             <img src={images.logoWhiteNoBg} className="flex__center"  alt="logo" />
-            <video 
-            src={images.fireVideo} 
-            ref={vidRef} 
-            type="video/mp4" 
-             muted autoPlay loop></video>
+            <video           
+            ref={vidRef}            
+             muted autoPlay loop>
+                <source src={images.fireVideo} type="video/mp4"  />
+             </video>
 
             <audio 
             src={images.fireAudio}  
