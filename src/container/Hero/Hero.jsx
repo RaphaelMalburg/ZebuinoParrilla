@@ -76,7 +76,7 @@ const Hero = () => {
                 muted 
                 autoPlay 
                 loop 
-                disablePictureInPicture = {true}
+                disablePictureInPicture
                 
              >
                 
