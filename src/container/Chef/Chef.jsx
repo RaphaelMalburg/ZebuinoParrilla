@@ -22,7 +22,7 @@ const Chef = () => (
                      A gastronomia nos transporta para momentos de conexão 
                      e faz com que 
                      consigamos unir uma memória a um sabor ou aroma. 
-                    Na relação mais purista com o alimento surge o Z, que possibilita transparecer o
+                    Na relação mais purista com o alimento surge o  Z, que possibilita transparecer o
                     real sabor dos alimentos em seu melhor preparo.
                 </p>
             </div>

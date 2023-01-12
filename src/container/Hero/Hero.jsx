@@ -30,14 +30,13 @@ const Hero = () => {
             audRef.current.play();
         }
     }
-    let options = {
-        disablePictureInPicture: true,
-        controlBar: {
-          pictureInPictureToggle: false
-        }
-      };
 
-      const video = videoHandle("videoHandle", options);
+    vid = document.getElementById("vid");
+    vid.disablePictureInPicture = true;
+        
+      
+
+
 
     return(
 
@@ -69,9 +68,9 @@ const Hero = () => {
         </div>
         <div className='app__hero-main flex__center'>
             <button className='custom__button' ><a href="">Explore o Menu</a></button>
-            <img src={images.logoWhiteNoBg} className="flex__center videoHandle"  alt="logo" />
+            <img src={images.logoWhiteNoBg} className="flex__center "  alt="logo" />
             <video 
-                id='videoHandle'
+               
                 src={images.fireVideo}
                 type="video/mp4"         
                 ref={vidRef}            
@@ -79,6 +78,7 @@ const Hero = () => {
                 autoPlay 
                 loop 
                 disablePictureInPicture 
+                id='vid'
              >
                 
              </video>

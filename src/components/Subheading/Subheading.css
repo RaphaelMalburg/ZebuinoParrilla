@@ -2,13 +2,17 @@
     height: 5rem;
     margin-bottom: 1rem;
     flex-direction: column;
-    
+    width: 100%;
+    display: flex;
 }
 .app__knifetext p{
-
+    line-height: 35px;
     margin-bottom: -.8rem;
 }
 .knife__img{
-
-    padding-bottom: 1rem;
+    
+    width: 70px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 1.7rem 1rem;
 }
