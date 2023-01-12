@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ZebuinoParrilla/static/css/main.5c67bc3d.css",
-    "main.js": "/ZebuinoParrilla/static/js/main.b62dbaea.js",
+    "main.css": "/ZebuinoParrilla/static/css/main.9746f833.css",
+    "main.js": "/ZebuinoParrilla/static/js/main.a12686ff.js",
     "static/media/fire-vd.mp4": "/ZebuinoParrilla/static/media/fire-vd.4e783cf5dee481842060.mp4",
     "static/media/bg.png": "/ZebuinoParrilla/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/fire-audio.mp3": "/ZebuinoParrilla/static/media/fire-audio.666805f26e90b03ced0f.mp3",
@@ -31,11 +31,11 @@
     "static/media/toggle-golden.svg": "/ZebuinoParrilla/static/media/toggle-golden.4f01ba20d8d4f7baeac512e67119ff6b.svg",
     "static/media/toggle-grey.svg": "/ZebuinoParrilla/static/media/toggle-grey.e65960227e68487b6f0b466563cc61d5.svg",
     "index.html": "/ZebuinoParrilla/index.html",
-    "main.5c67bc3d.css.map": "/ZebuinoParrilla/static/css/main.5c67bc3d.css.map",
-    "main.b62dbaea.js.map": "/ZebuinoParrilla/static/js/main.b62dbaea.js.map"
+    "main.9746f833.css.map": "/ZebuinoParrilla/static/css/main.9746f833.css.map",
+    "main.a12686ff.js.map": "/ZebuinoParrilla/static/js/main.a12686ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c67bc3d.css",
-    "static/js/main.b62dbaea.js"
+    "static/css/main.9746f833.css",
+    "static/js/main.a12686ff.js"
   ]
 }
