@@ -31,8 +31,7 @@ const Hero = () => {
         }
     }
 
-    vid = document.getElementById("vid");
-    vid.disablePictureInPicture = true;
+   
         
       
 
@@ -70,15 +69,15 @@ const Hero = () => {
             <button className='custom__button' ><a href="">Explore o Menu</a></button>
             <img src={images.logoWhiteNoBg} className="flex__center "  alt="logo" />
             <video 
-               
+               id='vid'
                 src={images.fireVideo}
                 type="video/mp4"         
                 ref={vidRef}            
                 muted 
                 autoPlay 
                 loop 
-                disablePictureInPicture 
-                id='vid'
+                disablePictureInPicture = {true}
+                
              >
                 
              </video>
