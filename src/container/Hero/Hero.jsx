@@ -35,7 +35,9 @@ const Hero = () => {
         
       
 
-
+   const vid = () => { document.getElementById("vid")
+    vid.disablePictureInPicture = true
+}
 
     return(
 
